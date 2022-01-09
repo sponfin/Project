@@ -1,0 +1,116 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Ubuntu;
+}
+
+.wrapper {
+  height: 100%;
+  width: 1504px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  margin-top: 20px;
+  display: flex;
+  /* height: 32px; */
+  align-items: center;
+}
+.header__title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.header__theme {
+  margin-left: auto;
+  padding: 0px 8px;
+}
+
+.buttton-header {
+  font-size: 13px;
+  line-height: 16px;
+  color: #459df5;
+  display: flex;
+  align-items: center;
+}
+.buttton-header__theme {
+  width: 16px;
+  height: 16px;
+  margin: 0px 8px;
+  mask-image: url(img/sun.svg);
+  -webkit-mask-image: url(img/sun.svg);
+  background: #459df5;
+  /* background-image: url(img/sun.svg); */
+}
+
+.searchbar {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #8055ff;
+  padding: 8px;
+  height: 48px;
+  align-items: center;
+}
+.searchbar__input {
+  width: 256px;
+  height: 32px;
+  background-color: #8055ff;
+  margin-right: 8px;
+}
+
+.searchbar__filters {
+  width: 32px;
+  height: 32px;
+  background-color: #8055ff;
+}
+
+.searchbar__load {
+  margin-left: auto;
+  flex-shrink: 1;
+  display: flex;
+  align-items: center;
+}
+
+.buttton-header__load {
+  width: 16px;
+  height: 16px;
+  margin: 0px 8px;
+  mask-image: url(img/refresh.svg);
+  -webkit-mask-image: url(img/refresh.svg);
+  background: #459df5;
+}
+
+.table-header {
+  margin-top: 20px;
+  border: 1px solid #8055ff;
+  background-color: #a8a8ff;
+  height: 48px;
+  background-color: #8055ff;
+}
+.table-content {
+  flex: 1 1 auto;
+  overflow: auto;
+  background-color: #a8a8ff;
+  border: 1px solid #8055ff;
+}
+
+/*---------------------------- Стилизация scrollbar для table-content -----------------*/
+
+.table-content::-webkit-scrollbar {
+  width: 4px; /* ширина scrollbar */
+}
+.table-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1); /* цвет дорожки */
+}
+.table-content::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.34); /* цвет плашки */
+  border-radius: 8px; /* закругления плашки */
+}
+/* ------------------------------------------------------------------------------ */
+
+.table-footer {
+  height: 48px;
+  background-color: #8055ff;
+}
