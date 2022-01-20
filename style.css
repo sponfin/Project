@@ -7,48 +7,36 @@ body {
 
 .wrapper {
   height: 100%;
-  width: 1504px;
+  padding: 32px 48px 0px 48px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 .header {
-  margin-top: 20px;
   display: flex;
-  /* height: 32px; */
   align-items: center;
+  background: #a8a8ff;
+  height: 32px;
+}
+.page-header {
+  margin-bottom: 32px;
 }
 .header__title {
   font-weight: bold;
   font-size: 26px;
+  color: #8055ff;
 }
 
 .header__theme {
   margin-left: auto;
   padding: 0px 8px;
 }
-
-.buttton-header {
-  font-size: 13px;
-  line-height: 16px;
-  color: #459df5;
-  display: flex;
-  align-items: center;
+.page-searchbar {
+  margin-bottom: 32px;
 }
-.buttton-header__theme {
-  width: 16px;
-  height: 16px;
-  margin: 0px 8px;
-  mask-image: url(img/sun.svg);
-  -webkit-mask-image: url(img/sun.svg);
-  background: #459df5;
-  /* background-image: url(img/sun.svg); */
-}
-
 .searchbar {
   display: flex;
-  margin-top: 20px;
-  border: 1px solid #8055ff;
+  border: 2px solid #a8a8ff;
   padding: 8px;
   height: 48px;
   align-items: center;
@@ -67,50 +55,34 @@ body {
 }
 
 .searchbar__load {
+  width: 32px;
+  height: 32px;
   margin-left: auto;
+  background-color: #8055ff;
   flex-shrink: 1;
   display: flex;
   align-items: center;
 }
-
-.buttton-header__load {
-  width: 16px;
-  height: 16px;
-  margin: 0px 8px;
-  mask-image: url(img/refresh.svg);
-  -webkit-mask-image: url(img/refresh.svg);
-  background: #459df5;
+.table {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
-.table-header {
-  margin-top: 20px;
+.table__header {
   border: 1px solid #8055ff;
   background-color: #a8a8ff;
   height: 48px;
   background-color: #8055ff;
 }
-.table-content {
+.table__content {
   flex: 1 1 auto;
   overflow: auto;
   background-color: #a8a8ff;
-  border: 1px solid #8055ff;
+  border: 2px solid #8055ff;
 }
 
-/*---------------------------- Стилизация scrollbar для table-content -----------------*/
-
-.table-content::-webkit-scrollbar {
-  width: 4px; /* ширина scrollbar */
-}
-.table-content::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.1); /* цвет дорожки */
-}
-.table-content::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.34); /* цвет плашки */
-  border-radius: 8px; /* закругления плашки */
-}
-/* ------------------------------------------------------------------------------ */
-
-.table-footer {
+.table__footer {
   height: 48px;
   background-color: #8055ff;
 }
