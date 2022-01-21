@@ -67,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  height: 100%;
 }
 
 .table__header {
@@ -74,10 +75,11 @@ body {
   background-color: #a8a8ff;
   height: 48px;
   background-color: #8055ff;
+  flex: 0 0 auto;
 }
 .table__content {
-  flex: 1 1 auto;
   overflow: auto;
+  height: 100%;
   background-color: #a8a8ff;
   border: 2px solid #8055ff;
 }
@@ -85,4 +87,5 @@ body {
 .table__footer {
   height: 48px;
   background-color: #8055ff;
+  flex: 0 0 auto;
 }
