@@ -81,7 +81,8 @@ body {
   overflow: auto;
   height: 100%;
   background-color: #a8a8ff;
-  border: 2px solid #8055ff;
+  border-left: 2px solid #8055ff;
+  border-right: 2px solid #8055ff;
 }
 
 .table__footer {
