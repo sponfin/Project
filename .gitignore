@@ -105,3 +105,6 @@ dist
 
 desc/
 ver1/
+
+.husky/
+.prettierrc.json

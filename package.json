@@ -1,0 +1,28 @@
+{
+    "name": "admin-panel-makeup",
+    "version": "1.0.0",
+    "description": "Layout of the final Project School JS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pretty-quick": "pretty-quick --staged",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sponfin/admin-panel-makeup.git"
+    },
+    "author": "Alexandr Ivanov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sponfin/admin-panel-makeup/issues"
+    },
+    "homepage": "https://github.com/sponfin/admin-panel-makeup#readme",
+    "dependencies": {
+        "prettier": "^2.5.1"
+    },
+    "devDependencies": {
+        "husky": "^7.0.0",
+        "pretty-quick": "^3.1.3"
+    }
+}
