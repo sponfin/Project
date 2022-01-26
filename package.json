@@ -1,0 +1,28 @@
+{
+    "name": "admin-panel-makeup",
+    "version": "1.0.0",
+    "description": "Финальный проект Школы JS (верстка)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pretty-quick": "pretty-quick --staged"
+    },
+    "pre-commit": [
+        "pretty-quick"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sponfin/admin-panel-makeup.git"
+    },
+    "author": "Ivanov Alexandr",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sponfin/admin-panel-makeup/issues"
+    },
+    "homepage": "https://github.com/sponfin/admin-panel-makeup#readme",
+    "devDependencies": {
+        "pre-commit": "^1.2.2",
+        "prettier": "^2.5.1",
+        "pretty-quick": "^3.1.3"
+    }
+}
