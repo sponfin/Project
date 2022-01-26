@@ -1,0 +1,74 @@
+body {
+  background-color: darkgrey;
+  font-family: Ubuntu;
+  height: 100%;
+}
+
+.page {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.page__input-date {
+  margin-bottom: 50px;
+}
+
+.page__label-input {
+  margin-bottom: 8px;
+}
+
+.label-input {
+  font-size: 13px;
+  line-height: 16px;
+}
+.input-date {
+  display: block;
+  position: relative;
+}
+.input-date__input {
+  outline: none;
+  width: 256px;
+  height: 32px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #459df5;
+  padding: 4px 20px 4px 8px;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.input-date__input::placeholder {
+  color: #bad8f5;
+}
+.input-date__input_error {
+  border: 1px solid #f53152;
+}
+
+.input-date__input_locked {
+  background: #bad8f5;
+  border: 1px solid #459df5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input-date__icon-x {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 235.5px;
+  top: 11.5px;
+  mask-image: url(../../img/x-large.svg);
+  -webkit-mask-image: url(../../img/x-large.svg);
+  background-color: #bad8f5;
+}
+.input-date__icon-locked {
+  position: absolute;
+  width: 14px;
+  height: 15px;
+  left: 234px;
+  top: 10px;
+  mask-image: url(../../img/locked.svg);
+  -webkit-mask-image: url(../../img/locked.svg);
+  background-color: #000000;
+}
