@@ -5,8 +5,16 @@ body {
 }
 
 .page {
-  margin-left: 100px;
-  margin-top: 50px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.page__input-data-wrapper {
+  display: inline-block;
+  padding: 0px 32px 0px 32px;
+  border: 1px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .page__input-date {
@@ -41,6 +49,10 @@ body {
 .input-date__input::placeholder {
   color: #bad8f5;
 }
+
+input-date__btn {
+  cursor: pointer;
+}
 .input-date__input_error {
   border: 1px solid #f53152;
 }
@@ -58,17 +70,13 @@ body {
   height: 9px;
   left: 235.5px;
   top: 11.5px;
-  mask-image: url(../../img/x-large.svg);
-  -webkit-mask-image: url(../../img/x-large.svg);
-  background-color: #bad8f5;
+  stroke: #bad8f5;
 }
 .input-date__icon-locked {
   position: absolute;
-  width: 14px;
-  height: 15px;
-  left: 234px;
-  top: 10px;
-  mask-image: url(../../img/locked.svg);
-  -webkit-mask-image: url(../../img/locked.svg);
-  background-color: #000000;
+  width: 12px;
+  height: 14px;
+  left: 236px;
+  top: 9px;
+  fill: #000000;
 }
