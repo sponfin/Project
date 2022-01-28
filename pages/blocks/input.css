@@ -55,7 +55,7 @@ body {
   color: #bad8f5;
 }
 
-input-date__btn {
+.input-date__btn {
   cursor: pointer;
 }
 .input-date__input_error {
