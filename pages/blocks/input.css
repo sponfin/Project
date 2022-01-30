@@ -25,29 +25,25 @@ body {
   left: 0;
 }
 
-.page__input-date-block {
+.page__input-date {
   margin-bottom: 50px;
-}
-
-/* .input-date-block {
-  display: block;
-} */
-
-.input-date {
-  display: block;
-  position: relative;
 }
 
 .label-input {
   font-size: 13px;
   line-height: 16px;
 }
-.input-date-block__label-input {
+.input-date__label-input {
   margin-bottom: 8px;
 }
 
-.input-date-block:last-child {
+.input-date:last-child {
   margin-bottom: 0;
+}
+
+.input-date__wrapper {
+  display: block;
+  position: relative;
 }
 .input-date__input {
   min-width: 256px;
