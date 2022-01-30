@@ -37,10 +37,6 @@ body {
   margin-bottom: 8px;
 }
 
-.input-date:last-child {
-  margin-bottom: 0;
-}
-
 .input-date__wrapper {
   display: flex;
   align-items: center;
