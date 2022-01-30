@@ -19,7 +19,8 @@ body {
 
 .block-wrapper__title {
   position: absolute;
-  color: #8055ff;
+  background: #8055ff;
+  color: #ffffff;
   margin: 0;
   top: 0;
   left: 0;
