@@ -42,8 +42,8 @@ body {
 }
 
 .input-date__wrapper {
-  display: block;
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 .input-date__input {
   min-width: 256px;
@@ -80,18 +80,14 @@ body {
 }
 
 .input-date__icon-x {
-  position: absolute;
   width: 9px;
   height: 9px;
-  left: 235.5px;
-  top: 11.5px;
   stroke: #bad8f5;
+  margin-left: -18px;
 }
 .input-date__icon-locked {
-  position: absolute;
   width: 12px;
   height: 14px;
-  left: 236px;
-  top: 9px;
   fill: #000000;
+  margin-left: -18px;
 }
