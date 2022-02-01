@@ -1,0 +1,31 @@
+body {
+  background-color: #ffffff;
+  font-family: Ubuntu;
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+}
+
+.page__block-wrapper {
+  margin-right: 20px;
+}
+.block-wrapper {
+  position: relative;
+  padding: 32px;
+  border: 1px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.block-wrapper__title {
+  position: absolute;
+  background: #8055ff;
+  color: #ffffff;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
