@@ -2,6 +2,10 @@
   margin-bottom: 50px;
 }
 
+.block-wrapper__input-date:last-child {
+  margin-bottom: 0px;
+}
+
 .label-input {
   display: block;
   font-size: 13px;
@@ -14,7 +18,9 @@
 .input-date__wrapper {
   display: flex;
   align-items: center;
+  position: relative;
 }
+
 .input-date__input {
   outline: none;
   min-width: 256px;
@@ -35,12 +41,20 @@
 .input-date__input:focus {
   border: 2px solid #459df5;
 }
+
+.input-date:last-child {
+  margin-bottom: 0px;
+}
 .input-date__input_error::placeholder {
   color: #bad8f5;
 }
 
-.input-date__btn {
+.input-date__btn-clear {
   cursor: pointer;
+  border: none;
+  background: inherit;
+  position: absolute;
+  right: 5px;
 }
 .input-date__input_error {
   border: 1px solid #f53152;
@@ -61,11 +75,11 @@
   width: 9px;
   height: 9px;
   stroke: #bad8f5;
-  margin-left: -18px;
 }
 .input-date__icon-locked {
-  width: 12px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   fill: #000000;
-  margin-left: -18px;
+  position: absolute;
+  right: 10px;
 }

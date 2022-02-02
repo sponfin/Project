@@ -5,6 +5,7 @@
 .searchbar__wrapper {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .searchbar__input {
   outline: none;
@@ -28,21 +29,30 @@
   border: 2px solid #459df5;
 }
 
-.searchbar__btn {
+.searchbar__btn-search {
   cursor: pointer;
+  border: none;
+  background: inherit;
+  position: absolute;
+  top: 5px;
 }
 
 .searchbar__icon-search {
   width: 16px;
   height: 16px;
   stroke: #459df5;
-  margin-right: -23px;
-  z-index: 50;
+}
+
+.searchbar__btn-clear {
+  cursor: pointer;
+  border: none;
+  background: inherit;
+  position: absolute;
+  right: 5px;
 }
 
 .searchbar__icon-x {
   width: 9px;
   height: 9px;
   stroke: #bad8f5;
-  margin-left: -18px;
 }

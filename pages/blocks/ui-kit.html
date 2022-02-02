@@ -54,15 +54,15 @@
               type="datetime"
             />
 
-            <span class="input-date__btn">
+            <button class="input-date__btn-clear">
               <svg class="input-date__icon-x">
                 <use xlink:href="sprite.svg#x-large"></use>
               </svg>
-            </span>
+            </button>
           </div>
         </div>
 
-        <div class="input-date">
+        <div class="input-date block-wrapper__input-date">
           <label
             class="label-input input-date__label-input"
             for="inputDateLocked"
@@ -76,7 +76,7 @@
               value="06.12.2021"
               placeholder="Введите"
               type="datetime"
-              readonly
+              disabled
             />
             <svg class="input-date__icon-locked">
               <use xlink:href="sprite.svg#locked"></use>
@@ -90,9 +90,11 @@
 
         <div class="searchbar block-wrapper__searchbar">
           <div class="searchbar__wrapper">
-            <svg class="searchbar__icon-search">
-              <use xlink:href="sprite.svg#search"></use>
-            </svg>
+            <button class="searchbar__btn-search">
+              <svg class="searchbar__icon-search">
+                <use xlink:href="sprite.svg#search"></use>
+              </svg>
+            </button>
 
             <input
               class="searchbar__input"
@@ -103,20 +105,22 @@
 
         <div class="searchbar">
           <div class="searchbar__wrapper">
-            <svg class="searchbar__icon-search">
-              <use xlink:href="sprite.svg#search"></use>
-            </svg>
+            <button class="searchbar__btn-search">
+              <svg class="searchbar__icon-search">
+                <use xlink:href="sprite.svg#search"></use>
+              </svg>
+            </button>
 
             <input
               class="searchbar__input"
               placeholder="Номер заказа или ФИО"
               value="50744"
             />
-            <span class="searchbar__btn">
+            <button class="searchbar__btn-clear">
               <svg class="searchbar__icon-x">
                 <use xlink:href="sprite.svg#x-large"></use>
               </svg>
-            </span>
+            </button>
           </div>
         </div>
       </div>
