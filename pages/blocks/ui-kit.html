@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="input.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,7 +18,8 @@
   </head>
   <body>
     <div class="page">
-      <div class="block-wrapper">
+      <!--Input-Date -->
+      <div class="block-wrapper page__block-wrapper">
         <p class="block-wrapper__title">Input-date</p>
 
         <div class="input-date block-wrapper__input-date">
@@ -49,15 +52,15 @@
               type="datetime"
             />
 
-            <span class="input-date__btn">
+            <button class="input-date__btn-clear">
               <svg class="input-date__icon-x">
                 <use xlink:href="sprite.svg#x-large"></use>
               </svg>
-            </span>
+            </button>
           </div>
         </div>
 
-        <div class="input-date">
+        <div class="input-date block-wrapper__input-date">
           <label
             class="label-input input-date__label-input"
             for="inputDateLocked"
@@ -71,7 +74,7 @@
               value="06.12.2021"
               placeholder="Введите"
               type="datetime"
-              readonly
+              disabled
             />
             <svg class="input-date__icon-locked">
               <use xlink:href="sprite.svg#locked"></use>
