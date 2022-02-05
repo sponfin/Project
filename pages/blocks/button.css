@@ -23,10 +23,12 @@
 }
 .btn_large {
   padding: 8px 16px;
+  min-width: 120px;
 }
 
 .btn_small {
   padding: 4px 8px;
+  min-width: 120px;
 }
 
 .btn_large-only-icon {
