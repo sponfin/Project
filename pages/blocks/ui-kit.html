@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <!--Input-Date -->
+      <div class="block-wrapper page__block-wrapper">
+        <p class="block-wrapper__title">Input-date</p>
+
+        <div class="input-date block-wrapper__input-date">
+          <label class="label-input input-date__label-input" for="inputDate"
+            >Дата и время заказа</label
+          >
+
+          <div class="input-date__wrapper">
+            <input
+              id="inputDate"
+              class="input-date__input"
+              placeholder="Введите"
+            />
+          </div>
+        </div>
+
+        <div class="input-date block-wrapper__input-date">
+          <label
+            class="label-input input-date__label-input"
+            for="inputDateError"
+            >Дата и время заказа</label
+          >
+
+          <div class="input-date__wrapper">
+            <input
+              id="inputDateError"
+              class="input-date__input input-date__input_error"
+              placeholder="Введите"
+              value="06.12.2021"
+              type="datetime"
+            />
+
+            <button class="input-date__btn-clear">
+              <svg class="input-date__icon-x">
+                <use xlink:href="sprite.svg#x-large"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="input-date block-wrapper__input-date">
+          <label
+            class="label-input input-date__label-input"
+            for="inputDateLocked"
+            >Дата и время заказа</label
+          >
+
+          <div class="input-date__wrapper">
+            <input
+              id="inputDateLocked"
+              class="input-date__input input-date__input_locked"
+              value="06.12.2021"
+              placeholder="Введите"
+              type="datetime"
+              disabled
+            />
+            <svg class="input-date__icon-locked">
+              <use xlink:href="sprite.svg#locked"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
