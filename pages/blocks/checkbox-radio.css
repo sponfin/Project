@@ -6,8 +6,8 @@
   z-index: -1;
   opacity: 0;
 }
-.checkbox__label {
-  cursor: pointer;
+.checkbox__label,
+.checkbox__label_none {
   display: inline-flex;
   align-items: center;
   user-select: none;
@@ -35,15 +35,6 @@
   margin-right: 8px;
 }
 
-.checkbox__label_none {
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  user-select: none;
-  font-size: 13px;
-  line-height: 16px;
-  position: relative;
-}
 .checkbox__input:checked + .checkbox__label::before {
   background: #459df5;
   border: 0px solid #bad8f5;
