@@ -7,6 +7,7 @@
   opacity: 0;
 }
 .checkbox__label {
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   user-select: none;
@@ -32,6 +33,16 @@
   box-sizing: border-box;
   border-radius: 2px;
   margin-right: 8px;
+}
+
+.checkbox__label_none {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+  font-size: 13px;
+  line-height: 16px;
+  position: relative;
 }
 .checkbox__input:checked + .checkbox__label::before {
   background: #459df5;
