@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="search-bar.css" />
     <link rel="stylesheet" href="checkbox-radio.css" />
+    <link rel="stylesheet" href="button.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -91,11 +92,9 @@
 
         <div class="searchbar block-wrapper__searchbar">
           <div class="searchbar__wrapper">
-            <button class="searchbar__btn-search">
-              <svg class="searchbar__icon-search">
-                <use xlink:href="sprite.svg#search"></use>
-              </svg>
-            </button>
+            <svg class="searchbar__icon-search">
+              <use xlink:href="sprite.svg#search"></use>
+            </svg>
 
             <input
               class="searchbar__input"
@@ -106,11 +105,9 @@
 
         <div class="searchbar">
           <div class="searchbar__wrapper">
-            <button class="searchbar__btn-search">
-              <svg class="searchbar__icon-search">
-                <use xlink:href="sprite.svg#search"></use>
-              </svg>
-            </button>
+            <svg class="searchbar__icon-search">
+              <use xlink:href="sprite.svg#search"></use>
+            </svg>
 
             <input
               class="searchbar__input"
@@ -169,6 +166,120 @@
             checked
           />
           <label class="radio__label" for="radio2"></label>
+        </div>
+      </div>
+      <!--Button -->
+      <div class="block-wrapper page__block-wrapper">
+        <p class="block-wrapper__title">Button</p>
+        <div class="button-group">
+          <div class="button-group__item">
+            <button
+              class="button button_theme_main button_size_large button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button
+              class="button button_theme_main button_size_large button-group__button"
+            >
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button
+              class="button button_theme_main button_size_large-square button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+            </button>
+
+            <br />
+            <br />
+
+            <button
+              class="button button_theme_main button_size_small button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button
+              class="button button_theme_main button_size_small button-group__button"
+            >
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button class="button button_theme_main button_size_small-square">
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="button-group__item">
+            <button
+              class="button button_theme_blue button_size_large button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button
+              class="button button_theme_blue button_size_large button-group__button"
+            >
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button
+              class="button button_theme_blue button_size_large-square button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+            </button>
+            <br />
+            <br />
+            <button
+              class="button button_theme_blue button_size_small button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+              <span class="button__text">Text here</span>
+            </button>
+            <button
+              class="button button_theme_blue button_size_small button-group__button"
+            >
+              <span class="button__text">Text here</span>
+            </button>
+            <button class="button button_theme_blue button_size_small-square">
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+            </button>
+          </div>
+
+          <div class="button-group__item">
+            <button
+              class="button button_theme_black button_size_large button-group__button"
+            >
+              <svg class="icon">
+                <use xlink:href="sprite.svg#sun"></use>
+              </svg>
+              <span class="button__text">Text here</span>
+            </button>
+
+            <button class="button button_theme_black button_size_large">
+              <span class="button__text">Text here</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

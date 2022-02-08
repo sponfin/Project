@@ -39,7 +39,7 @@
   color: #bad8f5;
 }
 .input-date__input:focus {
-  border: 2px solid #459df5;
+  box-shadow: 0px 0px 0px 1px #459df5;
 }
 
 .input-date:last-child {
@@ -61,7 +61,7 @@
 }
 
 .input-date__input_error:focus {
-  border: 2px solid #f53152;
+  box-shadow: 0px 0px 0px 1px #f53152;
 }
 
 .input-date__input_locked {
