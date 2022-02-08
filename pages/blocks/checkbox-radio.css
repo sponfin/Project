@@ -60,12 +60,14 @@
   z-index: -1;
   opacity: 0;
 }
-.radio__label {
+.radio__label,
+.radio__label_none {
   display: inline-flex;
   align-items: center;
   user-select: none;
   font-size: 13px;
   line-height: 16px;
+  position: relative;
 }
 .radio__label::before {
   content: "";
@@ -88,6 +90,6 @@
   border: 4px solid #459df5;
 }
 
-.radio__input:checked + .radio__label {
+.radio__input:checked + .radio__label_none {
   color: #459df5;
 }
