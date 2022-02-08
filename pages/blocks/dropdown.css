@@ -27,9 +27,15 @@
 .dropdown .checkbox {
   margin-bottom: 10px;
 }
-
 .dropdown .checkbox:last-child {
-  margin-bottom: -2px;
+  margin-bottom: 0px;
+}
+
+.dropdown .radio {
+  margin-bottom: 10px;
+}
+.dropdown .radio:last-child {
+  margin-bottom: 0px;
 }
 
 .dropdown-group__dropdown {
