@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="search-bar.css" />
     <link rel="stylesheet" href="checkbox-radio.css" />
     <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="dropdown.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -279,6 +280,196 @@
             <button class="button button_theme_black button_size_large">
               <span class="button__text">Text here</span>
             </button>
+          </div>
+        </div>
+      </div>
+      <!--Dropdown -->
+      <div class="block-wrapper page__block-wrapper">
+        <p class="block-wrapper__title">Dropdown</p>
+        <div class="dropdown-group">
+          <div class="dropdown-group__item">
+            <div class="dropdown dropdown-group__dropdown">
+              <div class="checkbox dropdown__checkbox">
+                <input type="checkbox" class="checkbox__input" id="new" />
+                <label class="checkbox__label" for="new">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Новый
+                </label>
+              </div>
+
+              <div class="checkbox dropdown__checkbox">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  id="calcilation"
+                />
+                <label class="checkbox__label" for="calcilation">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Расчет
+                </label>
+              </div>
+
+              <div class="checkbox dropdown__checkbox">
+                <input type="checkbox" class="checkbox__input" id="confirmed" />
+                <label class="checkbox__label" for="confirmed">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Подтвержден
+                </label>
+              </div>
+
+              <div class="checkbox dropdown__checkbox">
+                <input type="checkbox" class="checkbox__input" id="postponed" />
+                <label class="checkbox__label" for="postponed">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Отложен
+                </label>
+              </div>
+
+              <div class="checkbox dropdown__checkbox">
+                <input type="checkbox" class="checkbox__input" id="completed" />
+                <label class="checkbox__label" for="completed">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Выполнен
+                </label>
+              </div>
+
+              <div class="checkbox dropdown__checkbox">
+                <input type="checkbox" class="checkbox__input" id="canceled" />
+                <label class="checkbox__label" for="canceled">
+                  <svg class="checkbox__icon">
+                    <use xlink:href="sprite.svg#checkmark"></use>
+                  </svg>
+                  Отменен
+                </label>
+              </div>
+            </div>
+
+            <div class="dropdown dropdown-group__dropdown">
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioNew"
+                />
+                <label class="radio__label_none" for="radioNew">Новый</label>
+              </div>
+
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioCalcilation"
+                />
+                <label class="radio__label_none" for="radioCalcilation"
+                  >Расчет</label
+                >
+              </div>
+
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioConfirmed"
+                />
+                <label class="radio__label_none" for="radioConfirmed"
+                  >Подтвержден</label
+                >
+              </div>
+
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioPostponed"
+                />
+                <label class="radio__label_none" for="radioPostponed"
+                  >Отложен</label
+                >
+              </div>
+
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioCompleted"
+                />
+                <label class="radio__label_none" for="radioCompleted"
+                  >Выполнен</label
+                >
+              </div>
+
+              <div class="radio dropdown__radio">
+                <input
+                  type="radio"
+                  name="radio"
+                  class="radio__input"
+                  id="radioCanceled"
+                />
+                <label class="radio__label_none" for="radioCanceled"
+                  >Отменен</label
+                >
+              </div>
+            </div>
+          </div>
+          <div class="dropdown-group__item">
+            <div class="dropdown dropdown-group__dropdown">
+              <div class="input-date">
+                <label
+                  class="label-input input-date__label-input"
+                  for="inputDate"
+                  >Номер страницы</label
+                >
+
+                <div class="input-date__wrapper">
+                  <input
+                    id="inputDate"
+                    class="input-date__input"
+                    placeholder="Введите номер"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown dropdown-group__dropdown">
+              <span class="dropdown__label">Удалить n записей?</span>
+              <button class="button button_theme_blue button_size_small">
+                <span class="button__text">Удалить</span>
+              </button>
+              <button class="button button_theme_main button_size_small">
+                <span class="button__text">Отмена</span>
+              </button>
+            </div>
+
+            <div class="dropdown dropdown-group__dropdown">
+              <span class="dropdown__label">Выберите тему</span>
+              <button class="button button_theme_blue button_size_small">
+                <svg class="icon">
+                  <use xlink:href="sprite.svg#sun"></use>
+                </svg>
+                <span class="button__text">Светлая</span>
+              </button>
+              <button class="button button_theme_main button_size_small">
+                <svg class="icon">
+                  <use xlink:href="sprite.svg#moon"></use>
+                </svg>
+                <span class="button__text">Темная</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>

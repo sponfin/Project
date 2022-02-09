@@ -23,7 +23,7 @@
 
 .input-date__input {
   outline: none;
-  min-width: 256px;
+
   width: 100%;
   height: 32px;
   box-sizing: border-box;
