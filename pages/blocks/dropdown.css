@@ -28,17 +28,17 @@
   border-radius: 8px;
 }
 
-.dropdown .checkbox {
+.dropdown__checkbox {
   margin-bottom: 10px;
 }
-.dropdown .checkbox:last-child {
+.dropdown__checkbox:last-child {
   margin-bottom: 0px;
 }
 
-.dropdown .radio {
+.dropdown__radio {
   margin-bottom: 10px;
 }
-.dropdown .radio:last-child {
+.dropdown__radio:last-child {
   margin-bottom: 0px;
 }
 
