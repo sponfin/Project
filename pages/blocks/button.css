@@ -33,6 +33,7 @@
   font-size: 13px;
   line-height: 16px;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .button_theme_main {
