@@ -1,4 +1,4 @@
-const listOrders = [
+const goods = [
   {
     num: 1270989,
     date: "15.02.2021, 18:00",
@@ -90,10 +90,10 @@ const listOrders = [
   },
 ];
 
-function filteredOrders(arr, status) {
+function getFilteredGoods(arr, status) {
   return arr.filter((item) => {
     return item.status == status;
   });
 }
 
-console.log(filteredOrders(listOrders, "Новый"));
+console.log(getFilteredGoods(goods, "Новый"));
