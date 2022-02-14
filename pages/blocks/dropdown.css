@@ -11,13 +11,6 @@
 .dropdown-group__item:last-child {
   margin-bottom: 0px;
 }
-.dropdown .checkbox {
-  display: block;
-}
-
-.dropdown .radio {
-  display: block;
-}
 
 .dropdown {
   width: 160px;
@@ -29,14 +22,18 @@
 }
 
 .dropdown__checkbox {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .dropdown__checkbox:last-child {
   margin-bottom: 0px;
 }
 
+.checkbox__custom-checkbox_loc {
+  margin-right: 8px;
+}
+
 .dropdown__radio {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 .dropdown__radio:last-child {
   margin-bottom: 0px;

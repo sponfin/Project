@@ -92,7 +92,7 @@ const goods = [
 
 function getFilteredGoods(arr, status) {
   return arr.filter((item) => {
-    return item.status == status;
+    return item.status === status;
   });
 }
 
