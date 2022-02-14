@@ -6,10 +6,15 @@
 }
 .checkbox {
   display: flex;
+  position: relative;
 }
 .checkbox__input {
   position: absolute;
   z-index: 1;
+  width: 16px;
+  height: 16px;
+  top: -3px;
+  left: -4px;
   opacity: 0;
 }
 .checkbox__label {
@@ -38,9 +43,10 @@
 
 .checkbox__icon {
   position: absolute;
-  left: 1px;
-  width: 14px;
-  height: 14px;
+  left: 0px;
+  top: 0px;
+  width: 16px;
+  height: 16px;
   fill: #ffffff;
 }
 
